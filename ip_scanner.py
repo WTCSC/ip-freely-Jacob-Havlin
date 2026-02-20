@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-ip_freely.py - Network IP Scanner
-Scans all host addresses in a given CIDR network range using ping,
-with optional reverse DNS lookup, MAC address detection, and CSV export.
-
-Usage:
-    python ip_freely.py 192.168.1.0/24
-    python ip_freely.py 10.0.0.0/28 --csv results.csv
-"""
-
 import sys
 import subprocess
 import ipaddress
